@@ -81,3 +81,19 @@ El archivo `pruebas.http` tiene todas las peticiones de prueba y se puede ejecut
 **POST /api/productos** — nombre vacío (400)
 
 ![Nombre vacío](capturas/06-nombre-vacio-400.png)
+
+**POST /api/productos** — precio enviado como texto (400)
+
+![Precio como texto](capturas/07-precio-texto-400.png)
+
+**PUT /api/productos/2** — modificar producto (200)
+
+![Modificar producto](capturas/08-modificar-200.png)
+
+**GET /api/productos/2** — se verifica que el producto cambió (200)
+
+![Verificar modificación](capturas/09-verificar-modificado-200.png)
+
+**GET /api/productos** — el listado refleja los productos creados, el modificado y el eliminado (200)
+
+![Listado después de los cambios](capturas/10-listar-despues-de-cambios-200.png)
