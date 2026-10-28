@@ -1,0 +1,23 @@
+{
+  "name": "tp-individual---crud-en-nodejs",
+  "version": "1.0.0",
+  "description": "Mini API de la Cafetería del CRUI con Node.js y Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MauriiS/TP-Individual---CRUD-en-NodeJS.git"
+  },
+  "keywords": [],
+  "author": "Mauricio Sánchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MauriiS/TP-Individual---CRUD-en-NodeJS/issues"
+  },
+  "homepage": "https://github.com/MauriiS/TP-Individual---CRUD-en-NodeJS#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
