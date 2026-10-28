@@ -61,3 +61,23 @@ El archivo `pruebas.http` tiene todas las peticiones de prueba y se puede ejecut
 **GET /** — mensaje de bienvenida (200)
 
 ![Bienvenida](capturas/01-bienvenida-200.png)
+
+**GET /api/productos** — listado de productos (200)
+
+![Listar productos](capturas/02-listar-200.png)
+
+**GET /api/productos/1** — producto existente (200)
+
+![Producto existente](capturas/03-producto-existente-200.png)
+
+**GET /api/productos/99** — producto inexistente (404)
+
+![Producto inexistente](capturas/04-producto-inexistente-404.png)
+
+**POST /api/productos** — crear producto (201)
+
+![Crear producto](capturas/05-crear-201.png)
+
+**POST /api/productos** — nombre vacío (400)
+
+![Nombre vacío](capturas/06-nombre-vacio-400.png)
