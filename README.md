@@ -97,3 +97,11 @@ El archivo `pruebas.http` tiene todas las peticiones de prueba y se puede ejecut
 **GET /api/productos** — el listado refleja los productos creados, el modificado y el eliminado (200)
 
 ![Listado después de los cambios](capturas/10-listar-despues-de-cambios-200.png)
+
+**DELETE /api/productos/6** — eliminar producto (200)
+
+![Eliminar producto](capturas/11-eliminar-200.png)
+
+**GET /api/productos/6** — se verifica que el producto ya no existe (404)
+
+![Verificar eliminación](capturas/12-verificar-eliminado-404.png)
