@@ -59,3 +59,7 @@ El archivo `pruebas.http` tiene todas las peticiones de prueba y se puede ejecut
 ### Capturas
 
 <!-- Agregar las capturas en la carpeta capturas/ -->
+
+**GET /** — mensaje de bienvenida (200)
+
+![Bienvenida](capturas/01-bienvenida-200.png)
